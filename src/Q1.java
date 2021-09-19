@@ -12,9 +12,9 @@ O/P: 1234 is not a palindrome
  */
 
 
-public class Palindrome {
+public class Q1 {
     public int pali;
-    Palindrome(int p)
+    Q1(int p)
     {
         pali= p;
     }
@@ -34,7 +34,7 @@ public class Palindrome {
     }
 
     public static void main(String[] args) {
-        Palindrome obj = new Palindrome(Integer.parseInt(args[0]));
+        Q1 obj = new Q1(Integer.parseInt(args[0]));
         obj.Pali_check();
     }
 }
