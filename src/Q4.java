@@ -15,14 +15,23 @@ O/P:10
 
  */
 
+import java.sql.SQLOutput;
 import java.util.*;
 import java.util.stream.Stream;
 
 public class Q4 {
     public int arr[];
-    Q4(int ar[])
+    Q4(int n)
     {
-        arr= ar;
+
+        arr = new int[n];
+    }
+    public void arrayInput()
+    {
+        Scanner sc=new Scanner(System.in);
+        for (int i = 0; i < arr.length; i++) {
+            arr[i]= sc.nextInt();
+        }
     }
     public void check(){
         int a=0,b=0,sum=0;
@@ -50,7 +59,15 @@ public class Q4 {
     }
 
     public static void main(String[] args) {
-        Q4 obj=new Q4(Stream.of(args).mapToInt(s->Integer.parseInt(s)).toArray());
+        // Q4 obj=new Q4()
+        //  for command line argument convert into integer array
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the length of array");
+        int x= sc.nextInt();
+        Q4 obj =new Q4(x);
+        System.out.println("Enter the elements of array");
+        obj.arrayInput();
         obj.check();
     }
 }
