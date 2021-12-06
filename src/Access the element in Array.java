@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Assignment02 extends Exception
+public class Q2 extends Exception
 {
         public static void main(String[] args)
         {
@@ -27,6 +27,7 @@ public class Assignment02 extends Exception
             } catch (Exception obj)
             {
                 System.out.println(obj);
+                // we can also use these commmond to print msg
                 //System.out.println(obj.getMessage());
               //  System.out.println(obj.toString());
                // obj.printStackTrace();
