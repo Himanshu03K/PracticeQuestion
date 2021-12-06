@@ -27,10 +27,12 @@ public class Q2 extends Exception
             } catch (Exception obj)
             {
                 System.out.println(obj);
-                // we can also use these commmond to print msg
-                //System.out.println(obj.getMessage());
-              //  System.out.println(obj.toString());
-               // obj.printStackTrace();
+                /*
+                       we can also use these commmond to print msg
+                System.out.println(obj.getMessage());
+                System.out.println(obj.toString());
+                obj.printStackTrace();
+                */
             }
         }
 }
