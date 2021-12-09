@@ -35,9 +35,5 @@ public class threadpriorities {
         child3 obj3 = new child3();
        obj3.setPriority(Thread.MIN_PRIORITY); // sets the priority of child 3 as min = 1
         obj3.start();
-
-
-
-
     }
 }
