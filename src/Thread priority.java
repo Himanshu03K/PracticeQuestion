@@ -12,6 +12,7 @@ class child2 extends Thread{
 
     }
 }
+
 class child3 extends Thread{
     public void run(){
         System.out.println("child3 thread with min priority");
