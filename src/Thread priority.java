@@ -5,6 +5,7 @@ class child1 extends Thread{
         System.out.println("child1 thread with norm priority");
     }
 }
+
 class child2 extends Thread{
     public void run(){
         System.out.println("child2 thread with max priority");
