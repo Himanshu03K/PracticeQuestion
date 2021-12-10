@@ -1,4 +1,5 @@
 package com.multithreading;
+
 class child1 extends Thread{
     public void run(){
         System.out.println("child1 thread with norm priority");
